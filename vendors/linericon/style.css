@@ -171,6 +171,9 @@
 .lnr-phone-handset:before {
 	content: "\e830";
 }
+.lnr-linkedin:before {
+	content: "\e6f5";
+}
 .lnr-phone:before {
 	content: "\e831";
 }
