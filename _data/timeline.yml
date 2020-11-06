@@ -1,0 +1,107 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline-side: right
+
+- title: eBay Turkey
+  title-url: https://gittigidiyor.com/
+  date: Nov 2018 - 
+  subtitle: Devops Engineer
+  tags:
+    - tag: DevOps
+    - tag: Test Automation
+  timeline-side: right
+
+- title: QuickestLab
+  title-url: https://quickestlab.com/
+  date: 2020 -
+  subtitle: Backend Developer & Devops Engineer
+  tags:
+    - tag: iOS App
+    - tag: Mobile Game
+  timeline-side: right
+
+- title: Çiçeksepeti Hackathon
+  title-url: #
+  date: 2019
+  subtitle: 2nd Degree
+  timeline-side: left 
+
+- title: Turing's Cube
+  title-url: https://turingscube.com/
+  date: 2017 - 2018
+  subtitle: Startup Roadway 19’ Champion
+  tags:
+    - tag: Smart Home
+  timeline-side: left
+
+- title: NASA Space App Challange
+  title-url: #
+  date: 2018
+  subtitle: Jury Special Award 3rd Degree
+  timeline-side: left 
+
+- title: eBay Turkey
+  title-url: https://gittigidiyor.com/
+  date: July 2018 - Sep 2018
+  subtitle: Intern
+  tags:
+    - tag: DevOps
+    - tag: Test Automation
+  timeline-side: right
+  
+- title: MUFE Robotics
+  title-url: https://www.muferobotics.org/
+  date: Dec 2014 - Jun 2019
+  subtitle: Team Member
+  tags:
+    - tag: ROS
+    - tag: Python
+    - tag: Robotics
+    - tag: Arduino
+    - tag: Raspberry Pi
+  timeline-side: left
+
+- title: Boğaziçi University
+  title-url: https://boun.edu.tr/
+  date: Jun 2017 - Sep 2017
+  subtitle: Research Intern @ Robot Learning and Cognition Group
+  tags:
+    - tag: ROS
+    - tag: Python
+    - tag: Robot Learning
+  timeline-side: right
+
+- title: Microsoft
+  title-url: https://microsoft.com/
+  date: Jan 2017 - Jan 2018
+  subtitle: Microsoft Student Partner
+  timeline-side: left
+
+- title: Marmara University
+  title-url: https://marmara.edu.tr/
+  date: Oct 2016 - Jun 2018
+  subtitle: Student Assistant
+  tags:
+    - tag: Java
+  timeline-side: right
+
+- title: Marmara University
+  title-url: https://www.marmara.edu.tr/
+  date: 2014 - 2019
+  subtitle: B.A. Computer Science & Engineering
+  timeline-side: left

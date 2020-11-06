@@ -1,0 +1,36 @@
+# > name: Name of your Dev Tool
+# > weight: Describes how good you know the tool - values from 1 up to 5
+#
+# Example of a Dev Tool
+# - name: Git
+#   weight: 5
+
+# - name: vim
+#   weight: 5
+
+# - name: VsCode
+#   weight: 3
+
+# - name: PyCharm
+#   weight: 3
+
+# - name: IntelIJ IDEA
+#   weight: 1
+
+# - name: 
+#   weight: 1
+
+# - name: Chrome DevTools
+#   weight: 2
+
+# - name: npm
+#   weight: 2
+
+# - name: gulp
+#   weight: 4
+
+# - name: VS Code
+#   weight: 3
+
+# - name: Postman
+#   weight: 4

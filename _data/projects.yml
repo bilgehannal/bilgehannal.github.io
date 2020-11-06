@@ -1,0 +1,47 @@
+# > name: Name of your project
+# > descr: Description of your project
+# > demo: Link to your project
+# > tags: List of technologies you used in your projects
+#
+# Example of a project
+# - name: project X
+#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+#   demo: https://example.com/
+#   tags:
+#     - tag: MongoDB
+#     - tag: Express
+#     - tag: AngularJS
+#     - tag: Node
+
+- name: bios
+  descr: bios is a python library which helps you for operations of I/O.
+  demo: https://pypi.org/project/bios/
+  tags:
+    - tag: Python
+    - tag: Open Source
+
+- name: A Natural Language Commanding Interface For Robots
+  descr: Graduation Project - Responsible for Backend Example Robotic System and Developing and implementing of Natural Language Processing Algorithm
+  tags:
+    - tag: Python
+    - tag: NodeJS
+    - tag: Arduino
+    - tag: NLP
+
+- name: kctl
+  descr: kctl is a tool which is wrapping kubectl tool and getting kubectl to developer friendly scheme used in GittiGidiyor Technology Product.
+  tags:
+    - tag: Python
+    - tag: K8S
+    - tag: Docker
+
+- name: Chaptify
+  descr: iOS Application which aims to read and write stories together. Responsible for Backend Developer Operations
+  tags:
+    - tag: iOS Platform App
+
+- name: Coword
+  descr: Multiplayer word guessing game. Responsible for Backend Developer Operations
+  tags:
+    - tag: Multiplayer Mobile Game
+
