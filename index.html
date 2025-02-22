@@ -36,6 +36,23 @@
       margin-bottom: 1em;
       box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
       transition: transform 0.3s ease;
+      animation: bounceIn 1s ease forwards;
+    }
+    @keyframes bounceIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.3);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+      70% {
+        transform: scale(0.9);
+      }
+      100% {
+        transform: scale(1);
+      }
     }
     .profile-pic:hover {
       transform: scale(1.05);
@@ -54,6 +71,17 @@
       border-radius: 20px;
       padding: 2em;
       box-shadow: inset 8px 8px 16px #b8b9be, inset -8px -8px 16px #ffffff;
+      animation: slideIn 1s ease forwards;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
     .links {
       display: flex;
@@ -71,6 +99,17 @@
       border-radius: 50%;
       box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
       transition: all 0.3s ease;
+      animation: fadeInUp 1s ease forwards;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
     .link-btn:hover {
       transform: translateY(-3px);
@@ -84,26 +123,25 @@
 </head>
 <body>
   <header>
-    <img src="profile.jpg" alt="Profile" class="profile-pic">
+    <img src="assets/profile.jpg" alt="Profile" class="profile-pic">
     <h1>Bilgehan NAL</h1>
   </header>
 
   <section class="about">
     <p>
-      PlaceHolder
+      Hello, I am Bilgehan, a passionate technology enthusiast who loves working with platform technologies, especially containerization. I enjoy developing tools that make life easier and diving deep into the details of how technologies work behind the scenes. Learning and staying up to date with the latest advancements excites me, and I spend a lot of time reading and exploring new concepts. In addition to my tech interests, I also have a passion for RC cars, which adds a fun and hands-on aspect to my hobbies.
     </p>
   </section>
 
   <div class="links">
-    <!-- Replace src attributes below with your icon file paths or external URLs -->
-    <a class="link-btn" href="https://www.linkedin.com/in/your-linkedin" target="_blank">
-      <img class="icon" src="linkedin-icon.png" alt="LinkedIn">
+    <a class="link-btn" href="https://www.linkedin.com/in/bilgehan-nal" target="_blank">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
     </a>
-    <a class="link-btn" href="https://medium.com/@your-medium" target="_blank">
-      <img class="icon" src="medium-icon.png" alt="Medium">
+    <a class="link-btn" href="https://medium.com/@bilgehannal" target="_blank">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111505.png" alt="Medium">
     </a>
-    <a class="link-btn" href="https://github.com/yourusername" target="_blank">
-      <img class="icon" src="github-icon.png" alt="GitHub">
+    <a class="link-btn" href="https://github.com/bilgehannal" target="_blank">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
     </a>
   </div>
 </body>
