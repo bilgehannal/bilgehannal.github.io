@@ -2,147 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Personal Website</title>
-  <style>
-    * {
-      margin: 0; 
-      padding: 0; 
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background: #e0e0e0;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      min-height: 100vh;
-      animation: fadeIn 1s ease forwards;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    header {
-      margin-top: 2em;
-      text-align: center;
-    }
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1em;
-      box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
-      transition: transform 0.3s ease;
-      animation: bounceIn 1s ease forwards;
-    }
-    @keyframes bounceIn {
-      0% {
-        opacity: 0;
-        transform: scale(0.3);
-      }
-      50% {
-        opacity: 1;
-        transform: scale(1.05);
-      }
-      70% {
-        transform: scale(0.9);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
-    .profile-pic:hover {
-      transform: scale(1.05);
-    }
-    h1 {
-      margin-bottom: 0.5em;
-      color: #333;
-      text-shadow: 2px 2px 4px rgba(255,255,255,0.3);
-    }
-    .about {
-      margin: 2em;
-      max-width: 600px;
-      text-align: center;
-      line-height: 1.5;
-      background: #e0e0e0;
-      border-radius: 20px;
-      padding: 2em;
-      box-shadow: inset 8px 8px 16px #b8b9be, inset -8px -8px 16px #ffffff;
-      animation: slideIn 1s ease forwards;
-    }
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .links {
-      display: flex;
-      gap: 1em;
-      margin-bottom: 2em;
-    }
-    .link-btn {
-      text-decoration: none;
-      background: #e0e0e0;
-      width: 50px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      box-shadow: 8px 8px 16px #b8b9be, -8px -8px 16px #ffffff;
-      transition: all 0.3s ease;
-      animation: fadeInUp 1s ease forwards;
-    }
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .link-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 8px 8px 16px rgba(184,185,190,0.6), -8px -8px 16px rgba(255,255,255,0.6);
-    }
-    .icon {
-      width: 24px;
-      height: 24px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilgehan - Technology Enthusiast</title>
+  <script type="module" crossorigin src="./assets/index-4624b4ba.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/vue-vendor-a720813b.js">
+  <link rel="modulepreload" crossorigin href="./assets/markdown-vendor-76161808.js">
+  <link rel="stylesheet" href="./assets/index-f970a00d.css">
 </head>
 <body>
-  <header>
-    <img src="assets/profile.jpg" alt="Profile" class="profile-pic">
-    <h1>Bilgehan NAL</h1>
-  </header>
-
-  <section class="about">
-    <p>
-      Hello, I am Bilgehan, a passionate technology enthusiast who loves working with platform technologies, especially containerization. I enjoy developing tools that make life easier and diving deep into the details of how technologies work behind the scenes. Learning and staying up to date with the latest advancements excites me, and I spend a lot of time reading and exploring new concepts. In addition to my tech interests, I also have a passion for RC cars, which adds a fun and hands-on aspect to my hobbies.
-    </p>
-  </section>
-
-  <div class="links">
-    <a class="link-btn" href="https://www.linkedin.com/in/bilgehan-nal" target="_blank">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-    </a>
-    <a class="link-btn" href="https://medium.com/@bilgehannal" target="_blank">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111505.png" alt="Medium">
-    </a>
-    <a class="link-btn" href="https://github.com/bilgehannal" target="_blank">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
-    </a>
-  </div>
+  <div id="app"></div>
+  
 </body>
 </html>

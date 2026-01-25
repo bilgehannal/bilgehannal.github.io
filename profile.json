@@ -1,0 +1,14 @@
+{
+  "name": "Bilgehan",
+  "greeting": "Hi, I'm",
+  "tagline": "Technology Enthusiast & DevOps | Platform Engineer | SRE",
+  "bio": [
+    "I am Bilgehan, a passionate technology enthusiast who loves working with platform technologies, especially containerization. I enjoy developing tools that make life easier and diving deep into the details of how technologies work behind the scenes.",
+    "Learning and staying up to date with the latest advancements excites me, and I spend a lot of time reading and exploring new concepts. In addition to my tech interests, I also have a passion for RC cars, which adds a fun and hands-on aspect to my hobbies."
+  ],
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/bilgehan-nal/",
+    "medium": "https://medium.com/@bilgehannal",
+    "github": "https://github.com/bilgehannal"
+  }
+}
